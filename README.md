@@ -7,13 +7,13 @@ This Golang package will help you destroy all of your AWS account's machine imag
 Include this in your project
 
 ```
-import "ultimate-ami-destroyer"
+import "github.com/byronmansfield/ultimate-ami-destroyer"
 ```
 
-Use the ami crush method with account number
+Call the ami crush method with your amazon account id
 
 ```
-ultimate-ami-destroyer.CrushAMIs(123456789)
+ultimateAmiDestroyer.CrushAMIs(123456789)
 ```
 
 Viola! No more annoying AMI's. Sit back and watch your friendly DevOps or Site Reliability Engineer get paged and loose their shit! Enjoy :)
