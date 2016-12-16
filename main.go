@@ -12,5 +12,5 @@ func main() {
 // Account ID is passed as a string parameter
 // Nothing is returned because it's guaranteed to remove all of your AMI's
 func CrushAMIs(acctID string) {
-	fmt.Printf("Thanks for flying Air AMI Crusher. Total AMIs for account number %d: 0, duh! :P Have a nice AMI free day", acctID)
+	fmt.Printf("Thanks for flying Air AMI Crusher. Total AMIs for account number %s: 0, duh! :P Have a nice AMI free day\n", acctID)
 }
