@@ -2,6 +2,11 @@
 
 This Golang package will help you destroy all of your AWS account's machine images. If it is an AMI, it will find it and crush it.
 
+# Dependencies
+
+- Go 1.5 or greater installed
+- Being a dick
+
 # Usage
 
 Include this in your project
