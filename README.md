@@ -5,14 +5,18 @@ This Golang package will help you destroy all of your AWS account's machine imag
 # Dependencies
 
 - Go 1.5 or greater installed
+- AWS Account
+- `AWS_ACCT_ID` exported to path
 - Being a dick
 
 # Usage
 
-Include this in your project
+Include this in your project. Inside your `main.go`, in your `import` section, include this project
 
 ```
-import "github.com/byronmansfield/ultimate-ami-destroyer"
+import (
+  "github.com/byronmansfield/ultimate-ami-destroyer"
+)
 ```
 
 Call the ami crush method with your amazon account id
